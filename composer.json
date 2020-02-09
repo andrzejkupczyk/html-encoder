@@ -1,0 +1,38 @@
+{
+    "name": "andrzejkupczyk/html-encoder",
+    "description": "Encoder that encodes and decodes data in HTML",
+    "keywords": ["symfony", "serializer", "encoder", "html"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrzej Kupczyk",
+            "email": "kontakt@andrzejkupczyk.pl",
+            "homepage": "https://andrzejkupczyk.pl"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/andrzejkupczyk/html-encoder/issues",
+        "source": "https://github.com/andrzejkupczyk/html-encoder"
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "symfony/serializer": "^5.0",
+        "symfony/dom-crawler": "^5.0"
+    },
+    "suggest": {
+        "symfony/dom-crawler": "Needed to transform arrays into HTML and vice versa"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebGarden\\Component\\Serializer\\Encoder\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
